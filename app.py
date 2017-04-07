@@ -52,7 +52,7 @@ def processRequest(req):
     data = json.loads(result)
     res = makeWebhookResult(data)
     
-     print("yahoo res:")
+    print("yahoo res:")
     print(json.dumps(res, indent=4))
 
     
